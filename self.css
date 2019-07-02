@@ -1,0 +1,73 @@
+body {
+  background-color: DodgerBlue;
+  background-image:url('ladybug.jpg');
+}
+h1 {
+  color: gray
+}
+p {
+  background-image:url('watermelons.jpg');
+  color: white;
+  font-family: courier;
+  font-size: 160%;
+  border: 1px solid orange;
+  padding: 30px;
+  margin: 50px;
+}
+
+a:link {
+  background-color: #f44336;
+  color: white;
+  padding: 15px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+a:visited {
+  background-color: #f44336;
+  color: green;
+  padding: 15px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+table#t01 {
+  width: 100%;    
+  background-color: #f1f1c1;
+}
+
+table#t02 tr:nth-child(even) {
+  background-color: #eee;
+}
+table#t02 tr:nth-child(odd) {
+ background-color: #fff;
+}
+table#t02 th {
+  background-color: black;
+  color: white;
+}
+
+table, th, td {
+  border: 1px solid black;
+  /*border-collapse: collapse;*/
+  border-spacing: 15px;
+}
+
+#p01 {
+	color: blue;
+	}
+	
+p.re {
+	color: red;
+	}
